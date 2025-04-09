@@ -1,0 +1,25 @@
+{
+    "name": "php3-4/worker-online",
+    "description": "統計在線人數與消息推送",
+    "autoload": {
+        "psr-4": {
+            "Php34\\WorkerOnline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "w337886915",
+            "email": "wangheng19851019@126.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "topthink/think-worker": "2.0.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "topthink/think-installer": true
+        }
+    }
+}
