@@ -20,6 +20,9 @@
   "scripts": {
     "post-install-cmd": [
       "php src/install/sync-configs.php"
+    ],
+    "post-update-cmd": [
+      "php src/install/sync-configs.php"
     ]
 
   }
